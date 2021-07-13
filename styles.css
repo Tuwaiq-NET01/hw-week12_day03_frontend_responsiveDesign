@@ -7,7 +7,7 @@ body {
   padding: 0;
   height: 100vh;
   min-width: fit-content;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Cairo', sans-serif;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ body {
   border-color: #00adbb;
   color: #00adbb;
   background: white;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   margin-left: 20px;
@@ -188,7 +188,6 @@ body {
   background-repeat: no-repeat;
   width: 20rem;
   height: 17rem;
-  z-index: -1;
 }
 
 .track-img-left {
@@ -216,12 +215,112 @@ body {
 
 .track-top {
   z-index: 1000;
+  margin-top: -10px;
+  height: 25rem;
 }
 
 .track-hidden-r {
-  margin-right: -150px;
+  margin-right: -170px;
 }
 
 .track-hidden-l {
-  margin-left: -150px;
+  margin-left: -170px;
+}
+
+.gray {
+  color: #8e9395;
+  margin-bottom: 5rem;
+}
+
+.challenges {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.challenges-bg {
+  background-image: url(images/poly.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 800px;
+}
+
+.challenges-logo {
+  width: 128px;
+  height: 128px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+  margin-top: -20px;
+}
+
+.grey {
+  color: #8e9395;
+  margin-top: -20px;
+}
+
+.challenges-langs-box {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenges-langs {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.challenges-difficulty {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.difficulty-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  background: #353535;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.difficulty-img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.diff-green {
+  color: #97bf7e;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.diff-yellow {
+  color: #e4e06c;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.diff-red {
+  color: #d24f55;
+  font-weight: bold;
+  margin-top: -20px;
 }
