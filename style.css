@@ -12,3 +12,103 @@
     font-family: 'DIN next arabic', monospace;
     
 }
+
+.paths {
+    display: flex;
+    margin: auto    ;
+    
+}
+
+.path-card {
+
+position: relative;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 80px #00000029;
+border-radius: 134px;
+opacity: 1; 
+
+}
+
+#path-card-1 {
+width: 583px;
+height: 596px;
+top: 115px;
+left: 170px;
+/* opacity: 1; */
+
+}
+
+
+#path-card-2 {
+z-index: 1;
+width: 753px;
+height: 712px;
+/* opacity: 1; */
+
+}
+
+#path-card-3 {
+width: 583px;
+height: 595px;
+top: 115px;
+right: 170px;
+/* opacity: 1; */
+
+}
+
+.bg-img {
+    position: relative;
+    width: 90%;
+    height: 80%;
+    top: 10%;   
+    margin: 0 auto;
+
+}
+
+
+#path-card-1-bg-img {
+    background: url("images/Path\ 24.svg")  no-repeat center;
+}
+
+
+#path-card-2-bg-img {
+
+        background: url("images/Path\ 2.svg") no-repeat center;
+}
+
+#path-card-3-bg-img {
+        
+        background: url("images/Path\ 23.svg") no-repeat center ;
+
+}
+
+#path-card-2-left-img {
+    position: relative;
+    top: -79%;
+    left: 13%;
+}
+
+#path-card-2-right-img{
+    position: relative;
+    top: -83%;
+    left: 48%;
+}
+
+#path-card-1-left-img{
+    position: relative;
+    top: -77%;
+    left: 19%;
+}
+
+.path-card-content{
+    position: relative;
+top: -65%;
+width: 60%;
+left: 18%;
+font-size: 213%;
+color: white;
+}
+
+#path-card-3-content{
+    top: -53%;
+}
