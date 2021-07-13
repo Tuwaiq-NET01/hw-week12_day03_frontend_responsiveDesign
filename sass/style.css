@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.section {
+  height: 100vh;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.section-choose-path h2 {
+  text-align: center;
+  font: normal normal normal 50px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #8E9395;
+  opacity: 1;
+  margin-top: 100px;
+}
+
+.section-choose-path .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-choose-path .box-container .box {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 80px #00000029;
+          box-shadow: 0px 5px 80px #00000029;
+  border-radius: 134px;
+  opacity: 1;
+  width: 25%;
+  height: 400px;
+  position: relative;
+}
+
+.section-choose-path .box-container .box .icon {
+  float: left;
+  margin-left: 80px;
+  width: 50px;
+  height: 60px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-choose-path .box-container .box .content-container {
+  position: absolute;
+  width: 75%;
+  height: 70%;
+  top: 20%;
+  right: 13%;
+}
+
+.section-choose-path .box-container .box p {
+  float: left;
+  position: absolute;
+  top: 200px;
+  width: 60%;
+  right: 20%;
+  color: white;
+}
+
+.section-choose-path .box-container .box .box-front {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 80px #00000029;
+          box-shadow: 0px 5px 80px #00000029;
+  border-radius: 134px;
+  opacity: 1;
+  width: 25%;
+  height: 400px;
+  float: left;
+  position: relative;
+}
+
+.section-choose-path .box-container .box .box-front .icon-right {
+  width: 0px;
+  height: 60px;
+}
+
+.section-coderhub {
+  height: 100vh;
+}
+
+.section-coderhub .container {
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  background: transparent url("../images/Path 7.svg") 50% 0% no-repeat padding-box;
+  background-size: contain;
+  opacity: 1;
+  position: relative;
+}
+
+.section-coderhub .container .coderhub-logo {
+  width: 120px;
+  left: calc(50% - calc(120px / 2));
+  position: relative;
+  top: 7%;
+}
+
+.section-coderhub .container h2 {
+  width: 875px;
+  height: 88px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font: normal normal normal 30px/88px DIN Next LT W23;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-coderhub .container p {
+  width: 522px;
+  height: 42px;
+  text-align: center;
+  font: normal normal normal 15px/42px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #8E9395;
+  opacity: 1;
+  margin-top: -3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-coderhub .container .proglang-logo-container {
+  margin: auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-coderhub .container .proglang-logo-container img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.section-coderhub .container .info-boxes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-coderhub .container .info-boxes-container .info-box {
+  background: #323030 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 30px #00000029;
+          box-shadow: 0px 3px 30px #00000029;
+  border-radius: 50px;
+  margin-top: 2%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.section-coderhub .container .info-boxes-container .info-box img {
+  width: 150px;
+  opacity: 1;
+}
+
+.section-coderhub .container .info-boxes-container .info-box p {
+  width: 100%;
+  text-align: center;
+  font: normal normal normal 35px/30px DIN Next LT W23;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.section-coderhub .container .info-boxes-container .info-box .green {
+  color: #97BF7E;
+}
+
+.section-coderhub .container .info-boxes-container .info-box .yellow {
+  color: #E4E06C;
+}
+
+.section-coderhub .container .info-boxes-container .info-box .red {
+  color: #D24F55;
+}
+/*# sourceMappingURL=style.css.map */

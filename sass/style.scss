@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    // direction: rtl;
+}
+
+.section {
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.section-choose-path{
+
+    h2 {
+        text-align: center;
+        font: normal normal normal 50px/88px DIN Next LT W23;
+        letter-spacing: 0px;
+        color: #8E9395;
+        opacity: 1;
+        margin-top: 100px;
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: center;
+
+        .box {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 5px 80px #00000029;
+            border-radius: 134px;
+            opacity: 1;
+            width: 25%;
+            height: 400px;
+            // float:left;
+            position: relative;
+    
+            .icon {
+                float:left;
+                margin-left: 80px;
+                width: 50px;
+                height: 60px;
+                margin-top: 50px;
+                position: relative;
+                z-index: 2;
+            }
+    
+            .content-container {
+                position: absolute;
+                width: 75%;
+                height: 70%;
+                top: 20%;
+                right: 13%;
+            }
+    
+            p {
+                float: left;
+                position: absolute;
+                top: 200px;
+                width: 60%;
+                right: 20%;
+                color: white;
+            }
+    
+            .box-front {
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 5px 80px #00000029;
+                border-radius: 134px;
+                opacity: 1;
+                width: 25%;
+                height: 400px;
+                float:left;
+                position: relative;
+
+    
+                .icon-right {
+                    // float:left;
+                    // margin-left: 80px;
+                    width: 0px;
+                    height: 60px;
+                    // margin-top: 50px;
+                    // position: relative;
+                    // z-index: 2;
+                }
+            }
+        }
+    }
+}
+
+.section-coderhub {
+    height: 100vh;
+
+    .container {
+        width: 90%;
+        margin: auto;
+        height: 500px;
+        background: transparent url('../images/Path\ 7.svg') 50% 0% no-repeat padding-box;
+        background-size: contain;
+        // box-shadow: 0px 10px 40px #00000029;
+        opacity: 1;
+        position: relative;
+
+        .coderhub-logo {
+            width: 120px;
+            left: calc(50% - calc(120px / 2));
+            position: relative;
+            top: 7%;
+        }
+
+        h2 {
+            // top: 3362px;
+            // left: 587px;
+            width: 875px;
+            height: 88px;
+            margin-top: 2%;
+            margin-left: 5%;
+            
+            // text-align: left;
+            // font: normal normal normal 60px/88px DIN Next LT W23;
+            font: normal normal normal 30px/88px DIN Next LT W23;
+            text-align: center;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        p {
+            width: 522px;
+            height: 42px;
+            text-align: center;
+            font: normal normal normal 15px/42px DIN Next LT W23;
+            letter-spacing: 0px;
+            color: #8E9395;
+            opacity: 1;
+            margin-top: -3%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .proglang-logo-container {
+            margin: auto;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            
+            img {
+                width: 30px;
+                margin-right: 20px;
+            }
+        }
+
+        .info-boxes-container {
+            display: flex;
+            justify-content: center;
+
+            .info-box {
+                background: #323030 0% 0% no-repeat padding-box;
+                box-shadow: 0px 3px 30px #00000029;
+                border-radius: 50px;
+                // opacity: 0.08;
+
+                // top: 3661px;
+                // left: 527px;
+                margin-top: 2%;
+                width: 150px;
+                height: 150px;
+                
+                margin-right: 20px;
+                // transform: matrix(1, 0, 0, 1, 0, 0);
+
+                // background-color: green;
+                
+
+                img {
+                    // background-color: red;
+                    width: 150px;
+                    opacity: 1;
+                }
+
+                p {
+                    // background-color: red;
+                    width: 100%;
+                    text-align: center;
+                    font: normal normal normal 35px/30px DIN Next LT W23;
+                    letter-spacing: 0px;
+                    opacity: 1;
+                }
+                
+
+                .green {color: #97BF7E;}
+                .yellow {color: #E4E06C;}
+                .red {color: #D24F55;}
+
+
+            }
+        }
+    }
+
+}
