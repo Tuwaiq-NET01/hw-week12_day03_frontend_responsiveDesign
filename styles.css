@@ -42,7 +42,7 @@ body {
   font-family: "Cairo", sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 0px 10px 0px 10px;
   cursor: pointer;
 }
@@ -121,19 +121,107 @@ body {
 }
 
 .features-box {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   width: 25rem;
-  height: 8rem;
   background: white;
   border-radius: 20px;
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .features-img {
-  position: relative;
+  margin-top: -40px;
   width: 92px;
   height: 92px;
-  bottom: 40px;
+}
+
+.features-content {
+  margin: 15px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.tracks {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+}
+
+.tracks-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding-top: 30px;
+  width: 25rem;
+  height: 22rem;
+  border-radius: 70px;
+  box-shadow: 0 1px 10px -2px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.track-green {
+  background-image: url(images/green.svg);
+}
+
+.track-blue {
+  background-image: url(images/blue.svg);
+}
+
+.track-orange {
+  background-image: url(images/orange.svg);
+}
+
+.track-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 17rem;
+  z-index: -1;
+}
+
+.track-img-left {
+  margin-top: -270px;
+  margin-right: -90px;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+}
+
+.track-img-right {
+  margin-top: -250px;
+  margin-left: -75px;
+  width: 64px;
+  height: 64px;
+}
+
+.track-text {
+  direction: rtl;
+  font-weight: bold;
+  color: white;
+  margin: 20px;
+  text-align: justify;
+}
+
+.track-top {
+  z-index: 1000;
+}
+
+.track-hidden-r {
+  margin-right: -150px;
+}
+
+.track-hidden-l {
+  margin-left: -150px;
 }
