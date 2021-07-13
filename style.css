@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 40px #00000029;
+    opacity: 1;
+    
+}
+
+button{
+    background-color: rgb(123, 208, 219);
+        border: 1px;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        height:50px;
+        width:100px;
+        padding: 3px ;
+
+        
+    
+}
+
+.login{
+    background-color: rgb(255, 255, 255);
+    color:rgb(123, 208, 219) ;
+    border: 1px solid rgb(123, 208, 219) ;    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+.body1{
+    background-image: url("images/Rectangle 13.svg");
+    height: 650px; 
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.body2{
+    background-image: url("images/Rectangle 9.svg");
+    height: 650px; 
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.black-body{
+    background-image: url("images/01dar.png");
+    margin: 80px;
+    height: 300px; 
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.white-body{
+    background-image: url("images/banner0 copy.png");
+    margin: 80px;
+    height: 300px; 
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.feature {
+    position: relative;
+    margin: 20px;
+    width: 30%;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0.5px 60px #DBDBDB29;
+    border-radius: 50px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 20px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+}
+
+.feature p {
+    margin-top: 70px;
+}
+
+.right{
+    text-align: center;
+}
+
+.img {
+    position: absolute;
+    top: -30%;
+    left: 40%;
+    height: 100px;
+}
