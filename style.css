@@ -103,9 +103,21 @@ button {
 }
 
 .paths {
+    margin: 5%;
+
+}
+
+.paths-header {
+    font-size: 400%;
+    text-align: center;
+    color: #8E9395;
+    letter-spacing: 0px;
+}
+
+.paths-content{
+    margin: 2%;
     display: flex;
-    margin: auto    ;
-    
+    justify-content: center;
 }
 
 .path-card {
@@ -115,7 +127,6 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 5px 80px #00000029;
 border-radius: 134px;
 opacity: 1; 
-
 }
 
 #path-card-1 {
@@ -200,8 +211,8 @@ color: white;
 
 #path-card-3-content{
     top: -53%;
-  background-color: white;
-  font-family: "DIN next arabic", monospace;
+  color: white;
+  /* font-family: "DIN next arabic", monospace; */
 }
 
 .features {
