@@ -1,18 +1,183 @@
 /* No CSS *//*# sourceMappingURL=style.css.map */
 
-.card {
-    top: 2319px;
-    left: 672px;
-    width:753px;
-    height:712px;
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $color: $default) {
+    box-shadow: $x-axis $y-axis $blur $color;
 }
 
-#background {
+@mixin blue-rec {
+    border-radius: 4px;
+    padding: 7px 24px;
+    margin-right: 20px;
+}
 
-text-align: right;
-font: normal normal normal 35px/51px DIN Next LT W23;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+@mixin blue-cir {
+    border-radius: 15px;
+    padding: 9px 10px;
+    margin-right: 20px;
+}
+
+@mixin blue-button {
+    border: 1px solid #00ADBB ;
+    color: white;
+    background-color: #00ADBB;
+}
+@mixin card-bg($url,$w,$h) {
+    width:$w;
+    height:$h;
+    background: url($url) no-repeat center;
+    background-size: contain;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.nav{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include box-shadow(0px,3px,40px, rgb(187, 187, 187));
+    img{
+        margin-right: 50px;
+    }
+    .buttons{
+        margin-left: 50px;
+        button{
+            @include blue-rec;
+        }
+        #login{
+            border: 1px solid #00ADBB ;
+            color: #00ADBB;
+            background-color: white;
+        }
+
+        #signup{
+            @include blue-button();
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .buttons button{
+        justify-content:center;
+        margin-bottom: 10px;
+    }
+    .sub-intro{
+        justify-content: center;
+        flex-direction: column;
+        .sub-intro-part{
+            padding-bottom: 30px;
+        }
+    }
+    #cards{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .card{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.intro{
+    h3{
+        font-size: 35px;
+    }
+    p h3 {
+        text-align: right;
+    }
+    button{
+        @include blue-cir();
+        @include blue-button();
+    }
+}
+
+.sub-intro{
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 50px 0px;
+    justify-content: space-around;
+    .sub-intro-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+        img{
+            width: 90px;   
+            margin: -50px;
+            z-index: 999;
+        }
+        p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 390px;
+            text-align: center;
+            color: #BFBFBF;
+            background-color: white;
+            padding: 50px 20px;
+            border-radius: 25px;
+            
+        }
+    }
+    
+}
+
+#track{
+    h1{
+        text-align: center;
+        color: #8E9395;
+        padding-top: 120px;
+        padding-bottom: 40px;
+        font-weight: lighter;
+    }
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    .card{
+        padding: 20px 15px;
+        border-radius: 25px;
+        @include box-shadow(0px, 5px,80px ,#00000029 );
+        p{
+            color: white;
+            padding: 60px;
+        }
+    }
+}
+#android{
+    margin-bottom: -30px;
+    margin-left: 240px;
+    width:70px;
+}
+#card1 {
+    img{
+        width:80px;
+        margin-left: 20px;
+    }
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626201097_urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;public_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+}
+
+#card2 {
+    img{
+        width:50px;
+        margin-left: 45px;
+    }
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626201097_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+}
+
+#card3{
+    img{
+        width:90px;
+        margin-left: 15px;
+    }
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626201097_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+}
+
+
