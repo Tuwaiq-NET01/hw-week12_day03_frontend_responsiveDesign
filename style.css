@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "DIN next arabic";
+    src: url("./fonts/DIN\ Next\ LT\ Arabic\ Light.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:white;
+    font-family: 'DIN next arabic', monospace;
+    
+}
