@@ -25,6 +25,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 6%;
 }
 
 .section-choose-path .box-container .box {
@@ -65,21 +66,33 @@
   color: white;
 }
 
-.section-choose-path .box-container .box .box-front {
+.section-choose-path .box-container .box-front {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   -webkit-box-shadow: 0px 5px 80px #00000029;
           box-shadow: 0px 5px 80px #00000029;
   border-radius: 134px;
   opacity: 1;
-  width: 25%;
-  height: 400px;
-  float: left;
-  position: relative;
+  width: 30%;
+  height: 500px;
+  margin-top: -6%;
+  position: absolute;
+  z-index: 2;
 }
 
-.section-choose-path .box-container .box .box-front .icon-right {
-  width: 0px;
+.section-choose-path .box-container .box-front .icon-right {
+  width: 60px;
   height: 60px;
+  float: right;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.section-choose-path .box-container .box-first {
+  margin-right: 5%;
+}
+
+.section-choose-path .box-container .box-last {
+  margin-left: 5%;
 }
 
 .section-coderhub {
