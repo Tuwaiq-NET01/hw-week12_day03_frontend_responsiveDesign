@@ -95,6 +95,12 @@
         @include blue-cir();
         @include blue-button();
     }
+    .rec{
+        width: 700px;
+    }
+    .intro-icon{
+        width: 300px;
+    }
 }
 
 .sub-intro{
@@ -161,7 +167,7 @@
         width:80px;
         margin-left: 20px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626201097_urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;public_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
 }
 
 #card2 {
@@ -169,7 +175,7 @@
         width:50px;
         margin-left: 45px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626201097_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
 }
 
 #card3{
@@ -177,7 +183,7 @@
         width:90px;
         margin-left: 15px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626201097_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_709572c9890faa0dc89a27bd268951decb7ce663",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
 }
 
 
