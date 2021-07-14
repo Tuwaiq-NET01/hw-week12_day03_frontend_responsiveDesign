@@ -1,29 +1,22 @@
-# Lab-week12_day03_frontend_responsiveDesign
-<div dir="rtl" align="right">
-فكرة المشروع
+# Tuwaiq-eLearning-Frontend
 
-بناء مشروع Front-End بناء على تصميم سيتم إعطائك، ويطبق مفاهيم Responsive Design 
-تطبيق المشروع يكون على مجموعات مكونه من ٣ اشخاص
-- <a href="https://xd.adobe.com/view/b644f3be-ce10-42ac-9b9c-fc7c19914081-e317/specs/">Design Prototype (Desktop)</a>
-- <a href="https://xd.adobe.com/view/b644f3be-ce10-42ac-9b9c-fc7c19914081-e317/screen/f4ce35b8-df59-445f-bf24-26dbefb97312/">Design Prototype (Mobile)</a>
+# Netlify Deployment: [here](https://amazing-shannon-a6b526.netlify.app/) 
 
-متطلبات المشروع
-- تطبيق أحد الـLayouts التنسيقات: Floats، Flexbox، Grid
-- تطبيق Responsive Design لشاشتين على الأقل Mobileو Desktop
-- الاستناد على تصميم الواجهات المُعطى، وتطبيق التصميم نفس المطلوب
-- التسليم عن طريق Github
-- العمل كفريق بأستخدام الـGithub Organisation 
-- الـDeployment على https://app.netlify.com
+## Done by: 
 
+<ul>
 
+<li> 
 
-إضافة | Bouns 
-- تطبيق SASS
-- تطبيق Responsive Design على أكثر من شاشتين Mobile و Tablet و Desktop
+### [Ahmed Alzubaidi](https://github.com/AhmedTuwaiq) </li>
+<li> 
 
+### [Faisal Alsagri](https://github.com/FaisalAlsagri) </li>
+<li> 
 
-التسليم:
+### [Arwa Wan La](https://github.com/arwawanla) </li>
+<li> 
 
-تسليم المشروع على Github الساعة 5 م 
+### [Mohammed Albalawi](https://github.com/MhmdRashed) </li>
 
-</div>
+</ul>
