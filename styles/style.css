@@ -528,6 +528,7 @@ footer :last-child {
             align-items: center;
     width: 100%;
     padding: 20px;
+    margin-left: 100px;
   }
   #feature-2 img {
     margin-right: 10px;
@@ -563,7 +564,7 @@ footer :last-child {
   .feature-chn {
     background-image: none;
     background-color: #0F1216;
-    margin-left: -45px;
+    margin-left: -4px;
     width: 85%;
   }
   .feature-chn .levels {

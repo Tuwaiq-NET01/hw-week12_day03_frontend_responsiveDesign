@@ -340,6 +340,7 @@ footer{
         @include flex-justify(center);
         width: 100%;
         padding: 20px;
+        margin-left: 100px;
         }
         img {
             margin-right: 10px;
@@ -364,7 +365,7 @@ footer{
     .feature-chn{
         background-image: none;
         background-color: #0F1216;
-        margin-left: -45px;
+        margin-left: -4px;
         width: 85%;
         .levels{
             margin-top: 20px;
