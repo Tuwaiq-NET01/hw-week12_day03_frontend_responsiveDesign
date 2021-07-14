@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 .nav {
@@ -9,35 +10,31 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 40px #00000029;
     opacity: 1;
-    
 }
-
 button{
-    background-color: rgb(123, 208, 219);
+    background-color:#00ADBB;
         border: 1px;
+        border-radius: 5px;
         color: white;
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
         margin: 4px 2px;
         cursor: pointer;
-        height:50px;
+        height:30px;
         width:100px;
         padding: 3px ;
-
-        
-    
 }
-
+.auth{
+  padding: 10px;
+}
 .login{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 250, 250);
     color:rgb(123, 208, 219) ;
-    border: 1px solid rgb(123, 208, 219) ;    
+    border: 1px solid #00ADBB ; 
 }
-
 main{
     display: flex;
     flex-direction: row;
-
 }
 .body1{
     background-image: url("images/Rectangle 13.svg");
@@ -47,7 +44,6 @@ main{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-
 .body2{
     background-image: url("images/Rectangle 9.svg");
     height: 650px; 
@@ -56,7 +52,6 @@ main{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-
 .black-body{
     background-image: url("images/01dar.png");
     margin: 80px;
@@ -66,7 +61,6 @@ main{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-
 .white-body{
     background-image: url("images/banner0 copy.png");
     margin: 80px;
@@ -76,7 +70,6 @@ main{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-
 .features {
     display: flex;
     justify-content: space-around;
@@ -86,7 +79,7 @@ main{
 
 .feature {
     position: relative;
-    margin: 20px;
+    margin: 50px 20px 20px;
     width: 30%;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -98,18 +91,357 @@ main{
     letter-spacing: 0px;
     color: #BFBFBF;
 }
-
 .feature p {
     margin-top: 70px;
 }
-
 .right{
     text-align: center;
 }
-
 .img {
     position: absolute;
     top: -30%;
     left: 40%;
     height: 100px;
 }
+.challanges{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 1101px;
+    background: transparent url('images/Path 7.svg') 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+    box-shadow: 0px 10px 40px #00000029;
+    opacity: 1;
+}
+
+.coder-hub {
+    background: transparent url('images/01ch.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 168px;
+    width: 221px;
+    align-self: center;
+}
+
+.coder-hub-title {
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.coder-hub-subtitle {
+    font: normal normal normal 28px/42px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #8E9395;
+    opacity: 1;
+}
+
+.coder-hub-symbols {
+    display: flex;
+    align-self: center;
+}
+
+.swift{
+    background: transparent url('images/01s.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 69px;
+    height: 70px;
+}
+
+.java {
+    background: transparent url('images/01j.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 69px;
+    height: 70px;
+}
+
+.js {
+    background: transparent url('images/01js.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 69px;
+    height: 70px;
+}
+
+.python {
+    background: transparent url('images/01p.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 69px;
+    height: 70px;
+}
+
+.coder-hub-difficulty{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px 0px;
+}
+
+.diff-box {
+    background: #494949 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #00000029;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.easy{
+    background: transparent url('images/01e.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 253px;
+    height: 175px;
+}
+
+.easy-text {
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #97BF7E;
+    opacity: 1;
+}
+
+.normal {
+    background: transparent url('images/01m.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 253px;
+    height: 175px;
+}
+
+.normal-text {
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #E4E06C;
+    opacity: 1;
+}
+
+.hard {
+    background: transparent url('images/01h.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 253px;
+    height: 175px;
+}
+
+.hard-text {
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #D24F55;
+    opacity: 1;
+}
+
+.track{
+    text-align: center;
+    height: 600px;
+}
+.track-div1{
+width: 420px;
+height: 470px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 80px #00000029;
+border-radius: 134px;
+opacity: 0.6;
+float:left;
+}
+
+.track-div11{
+    background-image: url("images/Path 24.svg");
+    width: 400px;
+    height: 430px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+
+.track-div12{
+    background-image: url("images/Path 2.svg");
+    width: 400px;
+    height: 430px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+
+.track-div13{
+    background-image: url("images/Path 23.svg");
+    width: 400px;
+    height: 430px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+.track-p{
+    margin-top: 200px;
+}
+
+.content-box{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    width: 85%;
+    margin-left:90px;
+    margin-top: 90px;
+  
+    
+}
+
+
+
+
+
+
+.content-navigation{
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 10px;
+    flex:2;
+ 
+
+}
+.content-navigation button{
+    width: auto;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #00ADBB;
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:#fafcff;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    box-shadow: 0px 3px 70px #00000014;
+    justify-content: space-around;
+
+
+
+}
+
+.content-box img{
+
+    width: 256px;
+    height: 256px;
+margin-left: 100px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    height: 229px;
+    width: 99.8%;
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.safcsp {
+    background: transparent url('images/safcsp-logo-white.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 204px;
+    height: 53px;
+    margin-right: 40px;
+}
+
+.tuwaiq {
+    width: 201px;
+    height: 43px;
+    background: transparent url('images/logo-white.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 16px/23px DIN Next LT W23;
+    letter-spacing: 0px;
+    width: 280px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+
+.copyright {
+    font: normal normal normal 10px/15px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.nav-phone{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-phone{
+        display: flex;
+        justify-content: flex-end;
+    }
+    img{
+        margin: 20px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .icons div {
+        margin-top: 20px;
+    }
+    
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .coder-hub-difficulty{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .challanges{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 1101px;
+        background: #000000;
+        background-size: 100% 100%;
+        box-shadow: 0px 10px 40px #00000029;
+        opacity: 1;
+    }
+
+
+
+
+
+
+  }
+
