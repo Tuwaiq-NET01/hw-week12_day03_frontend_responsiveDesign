@@ -402,3 +402,45 @@ opacity: 1;
     justify-content: center;
     color: white;
 }
+.part__five{
+    
+    width: 1200px;
+    height: 210px;
+    background: #FAFCFF;
+    border-radius: 20px;
+    margin:40px;
+    padding-top: 7%;
+    box-shadow: 0px 3px 40px #00000029;
+    
+}
+.pic{
+    position: absolute;
+    z-index: 15;
+    height: 25%;
+    width: 22%;
+    top: 246%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text{
+ font-size: 20px;
+ font: bold;
+ display: flex;
+ padding-left: 27%;
+ justify-content: center; 
+}
+
+.button{
+    
+    width: 160px;
+    height: 40px;
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    color: white  ; 
+    border: 5px ; 
+    margin-left: -21%;
+    margin-top: 4%;
+}
