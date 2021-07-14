@@ -17,13 +17,10 @@
 
 
 
-إضافة | Bouns 
-- تطبيق SASS
-- تطبيق Responsive Design على أكثر من شاشتين Mobile و Tablet و Desktop
-
-
-التسليم:
-
-تسليم المشروع على Github الساعة 5 م 
 
 </div>
+
+## Authors:
+Abualmajeed 
+Adel
+Samirah
