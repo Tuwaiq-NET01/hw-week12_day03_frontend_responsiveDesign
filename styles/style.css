@@ -81,6 +81,21 @@
   #cards .card {
     margin-bottom: 30px;
   }
+  #banner-end {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #banner-end img {
+    margin-bottom: 40px;
+  }
 }
 
 .intro h3 {
@@ -160,10 +175,13 @@
   border-radius: 25px;
 }
 
+#track {
+  padding: 120px 0px;
+}
+
 #track h1 {
   text-align: center;
   color: #8E9395;
-  padding-top: 120px;
   padding-bottom: 40px;
   font-weight: lighter;
 }
@@ -174,6 +192,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 #cards .card {
@@ -228,5 +247,62 @@
 #card3 img {
   width: 90px;
   margin-left: 15px;
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-end #banner-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  padding: 50px 15px;
+  border-radius: 25px;
+  margin: 90px 0px;
+  -webkit-box-shadow: 0px 3px 70px #00000014;
+          box-shadow: 0px 3px 70px #00000014;
+}
+
+.flex-end #banner-end img {
+  width: 300px;
+}
+
+.flex-end #banner-end #banner-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-end #banner-end #banner-right h1 {
+  text-align: center;
+}
+
+.flex-end #banner-end #banner-right button {
+  border-radius: 4px;
+  padding: 7px 24px;
+  margin-right: 20px;
+  border: 1px solid #00ADBB;
+  color: white;
+  background-color: #00ADBB;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

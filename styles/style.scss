@@ -82,6 +82,14 @@
             margin-bottom: 30px;
         }
     }
+    #banner-end{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            margin-bottom: 40px;
+        }
+    }
 }
 
 .intro{
@@ -136,10 +144,10 @@
 }
 
 #track{
+    padding: 120px 0px;
     h1{
         text-align: center;
         color: #8E9395;
-        padding-top: 120px;
         padding-bottom: 40px;
         font-weight: lighter;
     }
@@ -147,6 +155,7 @@
 #cards{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
     .card{
         padding: 20px 15px;
         border-radius: 25px;
@@ -184,6 +193,38 @@
         margin-left: 15px;
     }
     @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
+}
+
+.flex-end{
+    display: flex;
+    justify-content: center;
+    #banner-end{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        padding: 50px 15px;
+        border-radius: 25px;
+        margin: 90px 0px;
+        @include box-shadow(0px, 3px,70px ,#00000014 );
+        img{
+            width: 300px;
+        }
+
+        #banner-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                text-align: center
+            }
+            button{
+                @include blue-rec();
+                @include blue-button();
+                margin-top: 20px;
+            }
+        }
+    }
 }
 
 
