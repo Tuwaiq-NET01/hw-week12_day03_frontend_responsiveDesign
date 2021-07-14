@@ -9,6 +9,8 @@
 
 </div>
 
+## [▷ Live Demo](https://tuwaiq.netlify.app/)
+
 ## Demo
 ![Demo](images/demo.png)
 
