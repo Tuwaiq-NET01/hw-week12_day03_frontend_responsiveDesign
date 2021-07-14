@@ -531,14 +531,14 @@ a {
 .tracks {
   margin-top: 5%;
   display: flex;
-  margin-left: 55px;
+  justify-content: center;
 }
 
 /* track 01  */
 
 .track01 {
-  width: 583px;
-  height: 596px;
+  width: 35rem;
+  height: 40rem;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 80px #00000029;
   border-radius: 134px;
@@ -598,8 +598,8 @@ a {
 
 .track {
 
-  width: 753px;
-  height: 712px;
+  width: 45rem;
+  height: 45rem;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 80px #00000029;
   border-radius: 134px;
@@ -615,8 +615,8 @@ a {
 
 .track-image1 {
 
-  width: 625px;
-  height: 540px;
+  width: 40rem;
+  height: 33rem;
   background: transparent url('./assets/images/Path 2.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
@@ -625,8 +625,8 @@ a {
 
 .tag2 {
 
-  width: 88px;
-  height: 115px;
+  width: 5.5rem;
+  height: 6rem;
   background: transparent url('./assets/images/03.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -639,33 +639,9 @@ a {
   margin-top: -35px;
 }
 
-.kotlin {
-
-  width: 133px;
-  height: 104px;
-  background: transparent url('./assets/images/010101.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: 75px;
-  margin-right: -55px;
-}
-
-.tag {
-
-  width: 166px;
-  height: 158px;
-  background: transparent url('./assets/images/ic.png') 0% 0% no-repeat padding-box;
-  opacity: 1;
-  margin-left: -55px;
-  margin-top: -35px;
-}
-
 .track-text {
-
-  width: 495px;
-  height: 255px;
-  text-align: right;
+  text-align: center;
   font: normal normal normal 35px/51px DIN Next LT W23;
-  letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
   display: flex;
@@ -678,8 +654,8 @@ a {
 
 .track03 {
 
-  width: 583px;
-  height: 595px;
+  width: 35rem;
+  height: 40rem;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 5px 80px #00000029;
   border-radius: 134px;
