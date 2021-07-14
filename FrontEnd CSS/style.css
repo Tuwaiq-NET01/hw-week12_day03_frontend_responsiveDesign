@@ -12,7 +12,9 @@ body {
     font-family: DINNextLTArabic,Cairo,sans-serif;
     background-color: white;
 }
-
+#phoneNav{
+    display: none;
+}
  /* Float four columns side by side */
   .column {
     float: left;
@@ -696,4 +698,180 @@ height: 700px;
 
 li a:hover {
     background-color: #111;
+}
+
+
+@media screen and (max-width: 375px) {
+    #phoneNav{
+        position: relative;
+        display: block;
+        float: right;
+        left: 60px;
+        top: 10px;
+        
+    }.logo >img{
+        position: relative;
+        left: 50px;
+
+    }
+    #nav {
+     display: flex;
+      padding-top: 10px;
+
+      flex-direction: row-reverse;
+      box-shadow: 0px 9px 7px rgba(31, 30, 30,0.1);
+    }
+    .login{
+        display: none;
+    }
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        /* height: 75vh; */
+        z-index: -1;
+        position: absolute;   
+        top: -300px;
+        right: 20px;
+        transform: scale(.7,.7);
+    }.box2info{
+        width: 375px;
+        top: -310px;
+        left: -30px;
+        transform: scale(.7,.7);
+    }.pic2{
+        top: -150px;
+
+    }
+    .rightBorder {
+
+        width: 375px;
+        height: 100px;
+        top: 70px;
+        left: 40px;
+        /* margin-right: 150px; */
+        position: relative;
+    }.p2{
+        display: flex;
+        left: -1524px;
+        border-right:none;
+
+    }.b2{
+        top:180px;
+        left: 40px;
+        width: 280px;
+    }.box2{
+        margin-top:-80px;
+    }
+    .box1{
+        height: 1050px;
+        margin-top:-250px;
+        margin-left:  60px;
+        transform:none;
+        width: 540px;
+
+    }.pic1{
+        top: -190px;
+        left: 170px;
+        transform: scale(.7,.7);
+
+    }.box1info{
+        right: 40px;
+    }.b1{
+        width: 250px;
+        top: 200px;
+
+    }.p1{
+        border-right:none;
+    }.leftBorder{
+        bottom: 40px;
+        top: 50px;
+    }.row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 375px;
+        background-color: white;
+    }.card{
+        width: 280px;
+        height: 200px;
+        margin-left: -110px;
+    }
+
+.part3{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    }
+    .text-color{
+        padding-top:80px;
+
+        font: normal normal normal 18px/45px DIN Next LT W23;
+        text-align: center;
+    }
+    .studyPaths{
+        transform: scale(.8,.8);
+        display: flex;
+        flex-direction: row;
+        /* justify-content:space-between; */
+        top: -20px;
+        left: 30px;
+    }.path1{
+        left: -490px;
+    }
+    .content1{
+        background:none;
+        left: 0px;
+        top: -100px;
+
+        width: 375px;
+        height: 1000px;
+        background: #0F1216 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 40px #00000029;
+        opacity: 1;
+        
+
+    }.content-chiled{
+        left: -200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }.content-title{
+        position: relative;
+        /* margin-left: 30px; */
+        transform: scale(.6,.6);
+        width: 675px;
+    }.info-title{
+        transform: scale(.6,.6);
+
+    }.difculty{
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px; */
+
+
+    }.content2 > div{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        
+    }.imageContent, .content3{
+        transform: scale(.6,.6);
+
+    }
+
+    .footer{
+        justify-items: center;
+        width: 375px;
+
+        height: 280px;
+    }.logo-footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
