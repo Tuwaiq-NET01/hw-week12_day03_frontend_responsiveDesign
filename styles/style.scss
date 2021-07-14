@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     @include box-shadow(0px,3px,40px, rgb(187, 187, 187));
     img{
         margin-right: 50px;
@@ -61,11 +62,102 @@
         }
     }
 }
+.intro{
+    display: flex;
+    .firstBox{
+        background-color: black;
+        transform: rotate(60deg);
+        background-size:contain;
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        color: white;
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 200px;
+        margin-bottom: 140px;
+        @include box-shadow(0px, 5px,70px , rgb(187, 187, 187) );
+        font-weight: normal;
+        h3, p, img,button{
+           transform: rotate(-60deg);
+        }
+        h3{
+            padding-right: 60px;
+            padding-top: 20px;
+            padding-bottom:20px ;
+        }
+        p{
+            margin-top: 30px;
+            text-align: right;
+            border-right: 2px solid #00ADBB ;
+            padding-right:30px ;
+        }
+        button{
+            width: max-content;
+            margin-left: 250px;
+        }
+    }
+    .secondBox{
+        background-color: white;
+        transform: rotate(60deg);
+        background-size:contain;
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+        color: black;
+        margin-top: 140px;
+        margin-left: 700px;
+        margin-bottom: 140px;
+        @include box-shadow(0px, 5px,70px , rgb(138, 138, 138) );
+
+        h3, p, img,button{
+           transform:rotate(-60deg)
+        }
+        h3{
+            padding-right: 60px;
+            padding-top: 20px;
+            padding-bottom:40px ;
+        }
+        p{
+            text-align: right;
+            border-right: 2px solid #00ADBB ;
+            padding-right:30px ;
+        }
+        button{
+            width: max-content;
+            position: absolute;
+            margin-left: 250px;
+            
+        }
+        img{
+            width:200px;
+            padding-top: 20px;
+        }
+    }
+    
+}
 
 @media screen and (max-width: 900px) {
     .buttons button{
         justify-content:center;
         margin-bottom: 10px;
+    }
+    .intro{
+        flex-direction: column-reverse;
+        .firstBox{
+            position:relative;
+            margin: 0px;
+            margin-top:10px ;
+            margin-bottom: 90px;
+            z-index: -999;
+            
+        }
+        .secondBox{
+            position:relative;
+            margin: 0px;
+            margin-top:90px ;
+            z-index: -100;
+        }
     }
     .sub-intro{
         justify-content: center;
@@ -88,6 +180,33 @@
         flex-direction: column;
         img{
             margin-bottom: 40px;
+        }
+    }
+    #levels-container{
+        
+        h1{
+            font-size: 2px;
+        }
+        #levels-icons{
+            background-color: #211e1e;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            flex-direction: column;
+        }
+       
+    }
+
+    #banner-end{
+        padding-top: 300px;
+    }
+    #banner-left{
+        padding-top: 130px;
+    }
+    #roles{
+        justify-content: space-between;
+        flex-direction: column;
+        p{
+            margin: 2px 0px;
         }
     }
 }
@@ -155,7 +274,6 @@
 #cards{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
     .card{
         padding: 20px 15px;
         border-radius: 25px;
@@ -176,7 +294,7 @@
         width:80px;
         margin-left: 20px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d",353px,351px)
 }
 
 #card2 {
@@ -184,7 +302,7 @@
         width:50px;
         margin-left: 45px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d",353px,351px)
 }
 
 #card3{
@@ -192,7 +310,7 @@
         width:90px;
         margin-left: 15px;
     }
-    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f",353px,351px)
+    @include card-bg("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d",353px,351px)
 }
 
 .flex-end{
@@ -216,7 +334,7 @@
             align-items: center;
             flex-direction: column;
             h1{
-                text-align: center
+                text-align: center;
             }
             button{
                 @include blue-rec();
@@ -227,4 +345,105 @@
     }
 }
 
+#outside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    #coder-hub{
+        width: 120px;
+        margin: -130px;
+    }
+    h1{
+        margin-top: 130px;
+        color: white;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    p{
+        color: #8E9395;
+        font-size: 15px;
+    }
+    #levels-container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        height: 600px;
+        background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=6933b6d7-61bb-408a-8c34-3b6dc659deee&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d") no-repeat center;
+        background-size: 800px 600px ;
+        
+        #black-bg{
+            width: 800px;
+        }
+        #lang-icons{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+            img{
+                padding: 10px 15px;
+                width: 30px;
+            }
+        }
+        #levels-icons{
+            display: flex;
+            justify-content: center;
 
+            .level{
+                text-align: center;
+                background-color: #323030;
+                padding: 15px;
+                margin: 10px 15px;
+                border-radius: 10px;
+                img{
+                    width: 120px;
+                }
+                #easy{
+                    color: #97BF7E;
+                }
+                #mid{
+                    color: #E4E06C;
+                }
+                #high{
+                    color: #D24F55;
+                }
+            }
+
+        }
+        
+    }
+}
+
+#footer{
+    background-color: #00ADBB;
+    border: 1px #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 9px;
+    font-weight: lighter;
+    padding: 20px 0px;
+
+    #logos{
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        img{
+            width: 100px;
+        }
+    }
+
+    #roles{
+        display: flex;
+        width: 18%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0px;
+    }
+
+    #author{
+        font-size: 7.5px;
+    }
+}

@@ -17,6 +17,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: white;
   -webkit-box-shadow: 0px 3px 40px #bbbbbb;
           box-shadow: 0px 3px 40px #bbbbbb;
 }
@@ -47,12 +48,126 @@
   background-color: #00ADBB;
 }
 
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro .firstBox {
+  background-color: black;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  color: white;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 200px;
+  margin-bottom: 140px;
+  -webkit-box-shadow: 0px 5px 70px #bbbbbb;
+          box-shadow: 0px 5px 70px #bbbbbb;
+  font-weight: normal;
+}
+
+.intro .firstBox h3, .intro .firstBox p, .intro .firstBox img, .intro .firstBox button {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.intro .firstBox h3 {
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro .firstBox p {
+  margin-top: 30px;
+  text-align: right;
+  border-right: 2px solid #00ADBB;
+  padding-right: 30px;
+}
+
+.intro .firstBox button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 250px;
+}
+
+.intro .secondBox {
+  background-color: white;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  color: black;
+  margin-top: 140px;
+  margin-left: 700px;
+  margin-bottom: 140px;
+  -webkit-box-shadow: 0px 5px 70px #8a8a8a;
+          box-shadow: 0px 5px 70px #8a8a8a;
+}
+
+.intro .secondBox h3, .intro .secondBox p, .intro .secondBox img, .intro .secondBox button {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.intro .secondBox h3 {
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.intro .secondBox p {
+  text-align: right;
+  border-right: 2px solid #00ADBB;
+  padding-right: 30px;
+}
+
+.intro .secondBox button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  margin-left: 250px;
+}
+
+.intro .secondBox img {
+  width: 200px;
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 900px) {
   .buttons button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 10px;
+  }
+  .intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .intro .firstBox {
+    position: relative;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    z-index: -999;
+  }
+  .intro .secondBox {
+    position: relative;
+    margin: 0px;
+    margin-top: 90px;
+    z-index: -100;
   }
   .sub-intro {
     -webkit-box-pack: center;
@@ -95,6 +210,36 @@
   }
   #banner-end img {
     margin-bottom: 40px;
+  }
+  #levels-container h1 {
+    font-size: 2px;
+  }
+  #levels-container #levels-icons {
+    background-color: #211e1e;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #banner-end {
+    padding-top: 300px;
+  }
+  #banner-left {
+    padding-top: 130px;
+  }
+  #roles {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #roles p {
+    margin: 2px 0px;
   }
 }
 
@@ -192,7 +337,6 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 50px;
 }
 
 #cards .card {
@@ -216,7 +360,7 @@
 #card1 {
   width: 353px;
   height: 351px;
-  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f") no-repeat center;
+  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d") no-repeat center;
   background-size: contain;
 }
 
@@ -228,7 +372,7 @@
 #card2 {
   width: 353px;
   height: 351px;
-  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f") no-repeat center;
+  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d") no-repeat center;
   background-size: contain;
 }
 
@@ -240,7 +384,7 @@
 #card3 {
   width: 353px;
   height: 351px;
-  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626244430_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_b5c8412642181e5ebed3469a29890753dd27d44f") no-repeat center;
+  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=41098e57-a90a-455b-8f23-3a516dc86ff9&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d") no-repeat center;
   background-size: contain;
 }
 
@@ -304,5 +448,158 @@
   color: white;
   background-color: #00ADBB;
   margin-top: 20px;
+}
+
+#outside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#outside #coder-hub {
+  width: 120px;
+  margin: -130px;
+}
+
+#outside h1 {
+  margin-top: 130px;
+  color: white;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#outside p {
+  color: #8E9395;
+  font-size: 15px;
+}
+
+#outside #levels-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 600px;
+  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=6933b6d7-61bb-408a-8c34-3b6dc659deee&api_key=CometServer1&access_token=1626287692_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_bcc5f61cbdef7f69aae2f9b6e96215e930cfe43d") no-repeat center;
+  background-size: 800px 600px;
+}
+
+#outside #levels-container #black-bg {
+  width: 800px;
+}
+
+#outside #levels-container #lang-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+#outside #levels-container #lang-icons img {
+  padding: 10px 15px;
+  width: 30px;
+}
+
+#outside #levels-container #levels-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#outside #levels-container #levels-icons .level {
+  text-align: center;
+  background-color: #323030;
+  padding: 15px;
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+
+#outside #levels-container #levels-icons .level img {
+  width: 120px;
+}
+
+#outside #levels-container #levels-icons .level #easy {
+  color: #97BF7E;
+}
+
+#outside #levels-container #levels-icons .level #mid {
+  color: #E4E06C;
+}
+
+#outside #levels-container #levels-icons .level #high {
+  color: #D24F55;
+}
+
+#footer {
+  background-color: #00ADBB;
+  border: 1px #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-size: 9px;
+  font-weight: lighter;
+  padding: 20px 0px;
+}
+
+#footer #logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+
+#footer #logos img {
+  width: 100px;
+}
+
+#footer #roles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0px;
+}
+
+#footer #author {
+  font-size: 7.5px;
 }
 /*# sourceMappingURL=style.css.map */
