@@ -1,6 +1,11 @@
 # Lab-week12_day03_frontend_responsiveDesign
 <div dir="rtl" align="right">
 فكرة المشروع
+<br />
+<br />
+
+رابط الموقع: [أضغط هنا](https://eager-raman-e1d19f.netlify.app/)
+ <br />
 
 بناء مشروع Front-End بناء على تصميم سيتم إعطائك، ويطبق مفاهيم Responsive Design 
 تطبيق المشروع يكون على مجموعات مكونه من ٣ اشخاص
