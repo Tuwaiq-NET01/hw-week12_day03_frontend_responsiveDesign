@@ -36,6 +36,8 @@ main{
     display: flex;
     flex-direction: row;
 }
+
+
 .body1{
     background-image: url("images/Rectangle 13.svg");
     height: 650px; 
@@ -70,6 +72,10 @@ main{
     background-repeat: no-repeat; 
     background-size: cover; 
 }
+
+.right{
+    text-align: center;
+}
 .features {
     display: flex;
     justify-content: space-around;
@@ -94,9 +100,7 @@ main{
 .feature p {
     margin-top: 70px;
 }
-.right{
-    text-align: center;
-}
+
 .img {
     position: absolute;
     top: -30%;
@@ -420,8 +424,10 @@ margin-left: 100px;
 
     .coder-hub-difficulty{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-content: space-around;
         flex-wrap: wrap;
+        height: 600px;
     }
 
     .challanges{
@@ -430,18 +436,162 @@ margin-left: 100px;
         align-content: center;
         text-align: center;
         justify-content: center;
-        width: 100%;
-        height: 1101px;
         background: #000000;
         background-size: 100% 100%;
         box-shadow: 0px 10px 40px #00000029;
         opacity: 1;
     }
 
+    .coder-hub {
+        background: transparent url('images/01ch.png') 0% 0% no-repeat padding-box;
+        background-size: 100%;
+        opacity: 1;
+        width: 118px;
+        height: 90px;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    
+    .coder-hub-title {
+        font: normal normal normal 24px/35px DIN Next LT W23;
+    }
+    
+    .coder-hub-subtitle {
+        font: normal normal normal 18px/27px DIN Next LT W23;
+    }
+    
+    .coder-hub-symbols {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .swift{
+        background: transparent url('images/01s.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 45px;
+        height: 46px;
+        background-size: 100%;
+    }
+    
+    .java {
+        background: transparent url('images/01j.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 45px;
+        height: 46px;
+        background-size: 100%;
+    }
+    
+    .js {
+        background: transparent url('images/01js.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 45px;
+        height: 46px;
+        background-size: 100%;
+    }
+    
+    .python {
+        background: transparent url('images/01p.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 45px;
+        height: 46px;
+        background-size: 100%;
+    }
+
+    .diff-box {
+        background: #494949 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 30px #00000029;
+        border-radius: 50px;
+        opacity: 1;
+    }
+    
+    .easy{
+        background: transparent url('images/01e.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 133px;
+        height: 92px;
+        background-size: 100%;
+    }
+    
+    .easy-text {
+        font: normal normal normal 30px/44px DIN Next LT W23;
+        letter-spacing: 0px;
+        color: #97BF7E;
+        opacity: 1;
+    }
+    
+    .normal {
+        background: transparent url('images/01m.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 133px;
+        height: 92px;
+        background-size: 100%;
+    }
+    
+    .normal-text {
+        font: normal normal normal 30px/44px DIN Next LT W23;
+        letter-spacing: 0px;
+        color: #E4E06C;
+        opacity: 1;
+    }
+    
+    .hard {
+        background: transparent url('images/01h.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 133px;
+        height: 92px;
+        background-size: 100%;
+    }
+    
+    .hard-text {
+        font: normal normal normal 30px/44px DIN Next LT W23;
+        letter-spacing: 0px;
+        color: #D24F55;
+        opacity: 1;
+    }
 
 
+    .body1{
+        width: 450px;
 
+    }
 
+    .body2{
+        width: 450px;
+
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature{
+        width:95%;
+    }
+    
+    .content-box{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+        width: 85%;
+        margin-left:10px;
+        margin-top: 90px;
+      
+        
+    }
+    
+    .content-box img{
+
+        width: 256px;
+        height: 256px;
+    margin-left: 10px;
+    
+    }
 
   }
 
