@@ -21,7 +21,7 @@
 </div>
 
 ## Authors:
-Abualmajeed 
+Abdulalmajeed 
 
 Adel
 
