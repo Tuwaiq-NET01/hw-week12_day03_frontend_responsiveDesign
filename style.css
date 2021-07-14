@@ -81,6 +81,7 @@ main{
     justify-content: space-around;
     background: #F8F8F8 0% 0% no-repeat padding-box;
     opacity: 1;
+    
 }
 
 .feature {
@@ -167,6 +168,7 @@ main{
     opacity: 1;
     width: 69px;
     height: 70px;
+    
 }
 
 .python {
@@ -174,6 +176,7 @@ main{
     opacity: 1;
     width: 69px;
     height: 70px;
+    
 }
 
 .coder-hub-difficulty{
@@ -232,9 +235,20 @@ main{
 }
 
 .track{
+   
     text-align: center;
     height: 600px;
+    justify-content: center;
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+/* .trackContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
 .track-div1{
 width: 420px;
 height: 470px;
@@ -242,7 +256,7 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 5px 80px #00000029;
 border-radius: 134px;
 opacity: 0.6;
-float:left;
+float: left;
 }
 
 .track-div11{
@@ -252,6 +266,7 @@ float:left;
     margin-bottom: 100px;
     background-repeat: no-repeat; 
     background-size: cover;  
+    position:absolute;
 }
 
 .track-div12{
@@ -261,6 +276,7 @@ float:left;
     margin-bottom: 100px;
     background-repeat: no-repeat; 
     background-size: cover;  
+    position: absolute;;
 }
 
 .track-div13{
@@ -270,6 +286,8 @@ float:left;
     margin-bottom: 100px;
     background-repeat: no-repeat; 
     background-size: cover;  
+    position: absolute;
+
 }
 .track-p{
     margin-top: 200px;
