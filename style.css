@@ -338,3 +338,57 @@ text-align: right;
 .text-red {
   color: #d24f55;
 }
+
+
+/* _________________________________________________________________ */
+.footer-container{
+  margin-top: 1rem;
+  width: 100vw;
+  height: 13rem;
+  background: #00ADBB 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;  
+  display: flex;
+  flex-direction: column;          
+}
+.footer-logo{
+    margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.footer-logo > div{
+    margin-right: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ .footer-container > div > ul{
+    margin-left: 1rem;
+    margin-right: 1rem;            
+    display: flex;
+}
+.footer-nav{
+margin-top: 1rem;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;  
+}
+.footer-nav ul{
+    justify-content: center;
+    align-items: center;      
+}
+.footer-nav ul li{      
+    margin-right: 2rem;
+}
+.footer-policy {
+  text-align: right;
+  font: normal normal normal 10px/15px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 10px;
+  text-align: center;
+}
