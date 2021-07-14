@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+$primary-blue: #00ADBB;
+@mixin flex-justify($spacing){
+    display: flex;
+    justify-content: $spacing;
+    align-items: center;
+}
+@mixin box-radius($radius, $bg){
+    background-color: $bg;
+    border-radius: $radius;
+}
+@mixin btn($bg:white, $border:$primary-blue, $radius:9px, $txt:$primary-blue, $paddingX: 20px, $paddingY: 9px){
+    margin: 0px 5px;
+    padding: 9px 20px;
+    background-color: $bg;
+    border-radius: $radius;
+    border:  $border 1px solid;
+    color: $txt;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+nav {
+    @include flex-justify(space-between);
+    padding: 10px 50px;
+    box-shadow: 0px 3px 40px #00000029;
+    button{
+        @include btn();
+    }
+    button:last-of-type{
+        color: white;
+        background-color: $primary-blue;
+    }
+    img {
+        height: 27px;
+    }
+}
+/*HERO*/
+#feature-1{
+    position: relative;
+    background-color: #F8F8F8;
+    @include flex-justify(space-around);
+    padding: 40px;
+    margin-bottom: 50px;
+    div {
+        @include flex-justify(space-around);
+        @include box-radius(25px, white);
+        flex-direction: column;
+        width: 35%;
+        padding: 60px  20px 15px 20px;
+        box-shadow: 0px 0.5px 60px #DBDBDB29;
+        text-align: center;
+        color: #BFBFBF;
+        font-size: 14px;
+        img {
+            position: absolute;
+            top: 0;
+            margin-top: 10px;
+            height: 35%;
+        }
+    }
+}
+#feature-2{
+    padding: 50px;   
+    text-align: center;
+    h2{
+        margin-bottom: 50px;
+        color: #8E9395;
+        font-weight: normal;
+    }
+    #boxes{
+    @include flex-justify(space-between);
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    }
+    img {
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    .android{
+        z-index: 100;
+        transform: scale(1.3);
+        background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=8d12ec8b-afbc-40b2-88ab-2d2c3c5d6cf2&api_key=CometServer1&access_token=1626291188_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_765a1e02fd81c76c62ea4deeda26561edbb22239);
+    }
+    .swift{
+        background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=b15dd311-2e7e-4bb2-a51a-caacdd9c30ad&api_key=CometServer1&access_token=1626291188_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_765a1e02fd81c76c62ea4deeda26561edbb22239);
+    }
+    .koltin {
+        background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=1d6d4f2e-d033-446e-9bfd-68df5dcffb32&api_key=CometServer1&access_token=1626291188_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_765a1e02fd81c76c62ea4deeda26561edbb22239);
+    }
+    .feature-box{
+        @include box-radius(30px, white);
+        padding: 50px;
+        box-shadow: 0px 5px 80px #00000029;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        div{
+            top: 0;
+            @include flex-justify(space-between);
+        }
+        img {
+            width: 50px;
+        }
+    }
+}
+.feature-chn{
+    background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b644f3be-ce10-42ac-9b9c-fc7c19914081;revision=0?component_id=6933b6d7-61bb-408a-8c34-3b6dc659deee&api_key=CometServer1&access_token=1626291188_urn%3Aaaid%3Asc%3AUS%3Ab644f3be-ce10-42ac-9b9c-fc7c19914081%3Bpublic_765a1e02fd81c76c62ea4deeda26561edbb22239);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    @include flex-justify(center);
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 80px;
+    margin: 40px 0px;
+    h5{
+        font-size: 13px;
+        font-weight: normal;
+        color: #8E9395;
+    }
+    .coder-hub{
+        width: 100px;
+    }
+    .languages{
+        img{
+            width: 30px;
+            margin: 5px 10px;
+        }
+    }
+    .levels{
+        @include flex-justify(space-between);
+        div{
+            @include box-radius(30px, rgba(255, 255, 255, 0.08));
+            margin: 15px 10px;
+            padding: 10px 10px;
+            img {
+                width: 100px;
+            }
+            h2{
+                font-weight: normal;
+            }
+        }
+    }
+    .levels div:nth-child(1){
+        h2{
+            color: #97BF7E;
+        }
+    }
+    .levels div:nth-child(2){
+        h2{
+            color: #E4E06C;
+        }
+    }
+    .levels div:nth-child(3){
+        h2{
+            color: #D24F55;
+        }
+    }
+}
+.learning {
+    width: 85%;
+    margin: 100px auto;
+    @include flex-justify(space-around);
+    @include box-radius(30px, #FAFCFF);
+    box-shadow: 0px 3px 70px #00000014;
+    padding: 20px;
+    margin-bottom: 50px;
+    img {
+        width: 220px;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 22px;
+        button {
+            @include btn();
+            margin: 15px 0px;
+            color: white;
+            background-color: $primary-blue;
+            width: 75%;
+            font-size: 12px;
+            box-shadow: 0px 3px 20px #00000029;
+        }
+    }
+}
+footer{
+    background-color: #00ADBB;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    :first-child{
+        @include flex-justify(space-between);
+        width: 30%;
+        margin: 10px auto;
+        img {
+            width: 120px;
+        }
+    }
+    :nth-child(2){
+        @include flex-justify(space-between);
+        text-align: center;
+        margin-top: 10px;
+        width: 40%;
+        margin: 10px auto;
+        p{
+            font-size: 15px;
+        }
+    }
+    :last-child{
+        font-size: 10px;
+    }
+}
