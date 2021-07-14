@@ -26,7 +26,7 @@ https://tuwaiq-platform-classa.github.io/lab-week12_day03_frontend_responsiveDes
 
 
 أعضاء الفريق :
-  1- عبدالعزيز المحمدي
-  2- أمل المطيري
-  3- عبدالرحمن سراوق
+  - عبدالعزيز المحمدي
+  - أمل المطيري
+  - عبدالرحمن سراوق
 </div>
