@@ -160,12 +160,12 @@ ul li {
   opacity: 1;
 }
 
-.ingsec1 {
+/* .ingsec1 {
   width: 25.875rem;
   height: 20.25rem;
   top: -6.188rem;
   right: -0.125rem;
-}
+} */
 
 .sec1vid2 {
   float: left;
@@ -181,8 +181,8 @@ ul li {
 }
 
 .ingsec1 {
-  width: 414px;
-  height: 324px;
+  width: 358px;
+  height: 305px;
   top: -99px;
   right: 2px;
   position: absolute;
