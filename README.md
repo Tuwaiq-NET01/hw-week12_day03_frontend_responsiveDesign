@@ -25,8 +25,8 @@ https://tuwaiq-platform-classa.github.io/lab-week12_day03_frontend_responsiveDes
 - تطبيق Responsive Design على أكثر من شاشتين Mobile و Tablet و Desktop
 
 
-التسليم:
-
-تسليم المشروع على Github الساعة 5 م 
-
+أعضاء الفريق :
+  1- عبدالعزيز المحمدي
+  2- أمل المطيري
+  3- عبدالرحمن سراوق
 </div>
