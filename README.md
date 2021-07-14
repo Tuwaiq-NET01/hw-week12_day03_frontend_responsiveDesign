@@ -1,5 +1,19 @@
 # Lab-week12_day03_frontend_responsiveDesign
 <div dir="rtl" align="right">
+
+
+## أعضاء الفريق 
+1- ندى العتيبي 
+2- سلطان الزعبي 
+3- منصور ال دندور 
+
+## Netlify
+
+https://pensive-swartz-8bd90e.netlify.app/
+
+
+
+
 فكرة المشروع
 
 بناء مشروع Front-End بناء على تصميم سيتم إعطائك، ويطبق مفاهيم Responsive Design 
