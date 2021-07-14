@@ -17,7 +17,6 @@ body {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  min-height: 2rem;
   background: white;
   -webkit-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
@@ -26,10 +25,25 @@ body {
   min-height: 4rem;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .logo {
   margin: 10px;
   width: 180px;
   height: 41px;
+  cursor: pointer;
+}
+
+.drawer {
+  display: none;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -45,6 +59,10 @@ body {
   margin-left: 20px;
   padding: 5px 15px 5px 15px;
   cursor: pointer;
+}
+
+.header-btn-container {
+  display: block;
 }
 
 .accent-color {
@@ -73,9 +91,21 @@ body {
   margin-right: 40px;
 }
 
+.diamond-mobile {
+  display: none;
+}
+
 .dark-color {
   background: #121212;
   color: white;
+}
+
+.header-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
 }
 
 .banner-img {
@@ -162,7 +192,7 @@ body {
   width: 25rem;
   height: 22rem;
   border-radius: 70px;
-  box-shadow: 0 1px 10px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px -2px rgba(0, 0, 0, 0.3);
   background: white;
 }
 
@@ -227,23 +257,25 @@ body {
 
 .gray {
   color: #8e9395;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 5rem;
 }
 
 .challenges {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   margin-top: 75px;
+  padding-bottom: 50px;
 }
 
 .challenges-bg {
   background-image: url(images/poly.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 70%;
-  height: 650px;
+  width: 60%;
+  min-height: 700px;
 }
 
 .challenges-logo {
@@ -280,7 +312,7 @@ body {
 
 .challenges-difficulty {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
@@ -404,4 +436,46 @@ body {
 .footer-rights {
   color: white;
   font-size: 12px;
+}
+
+@media all and (max-width: 600px) {
+  .header-btn-container {
+    display: none;
+  }
+  .drawer {
+    display: block;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+    margin-top: 0;
+    padding-bottom: 50px;
+    color: white;
+    background: #121212;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .diamond {
+    display: none;
+  }
+  .diamond-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .challenges {
+    background: #121212;
+  }
+
+  .challenges-bg {
+    background-image: none;
+  }
+
+  .challenges-difficulty {
+    flex-direction: column;
+  }
 }
