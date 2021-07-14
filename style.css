@@ -119,26 +119,17 @@ ul li {
 }
 
 .section1 {
-  height: 70.25rem;
-  padding: 14.375rem;
+  height: 30.25rem;
+  padding:  14.375rem;
 }
 
-.sec1vid1 {
+
+.sec1vid1{
   top: 9.875rem;
   left: 54.813rem;
   width: 28.125rem;
   height: 28.125rem;
-  float: left;
-  height: 1124px;
-  padding: 230px;
-}
-
-.sec1vid1 {
-  top: 158px;
-  left: 877px;
-  width: 450px;
-  height: 450px;
-  float: left;
+  float :left;
   transform: matrix(0.88, -0.47, 0.47, 0.88, 0, 0);
   /* background: transparent url('imges/banner0\ copy.png') 0% 0% no-repeat padding-box; */
   box-shadow: 0px 5px 40px #00000029;
@@ -147,8 +138,8 @@ ul li {
   background-color: black;
 }
 
-.sec1vid2 {
-  float: left;
+.sec1vid2{
+  float :left;
   top: 9.875rem;
   left: 54.813rem;
   width: 28.125rem;
@@ -157,10 +148,12 @@ ul li {
   /* background: transparent url('imges/banner0\ copy.png') 0% 0% no-repeat padding-box; */
   box-shadow: 0rem 0.313rem 2.5rem #00000029;
   border-radius: 6.188rem;
-  opacity: 1;
+  opacity: 1;  
+
 }
 
 /* .ingsec1 {
+.ingsec1{
   width: 25.875rem;
   height: 20.25rem;
   top: -6.188rem;
@@ -198,79 +191,113 @@ ul li {
   transform: rotate(20deg);
 }
 
-.h1sec1 {
-  color: white;
-  height: 0rem;
-  top: 16.75rem;
-  position: absolute;
-  right: 6.5rem;
-  transform: rotate(30deg);
+.h1sec1{
+color: white;
+height: 0rem;
+top:16.75rem;
+position: absolute;
+right:6.5rem;
+transform: rotate(30deg);
+
 }
 
-.textSec1 {
-  color: white;
-  height: 0rem;
-  top: 16.75rem;
-  position: absolute;
-  right: 6.5rem;
-  transform: rotate(30deg);
-  text-align: right;
+.textSec1{
+color: white;
+height: 0rem;
+top: 16.75rem;
+position: absolute;
+right: 6.5rem;
+transform: rotate(30deg); 
+text-align: right;
 }
 
-.h1sec2 {
-  height: 0rem;
-  top: 16.75rem;
-  position: absolute;
-  right: 6.5rem;
-  transform: rotate(30deg);
+
+.h1sec2{
+
+height: 0rem;
+top: 16.75rem;
+position: absolute;
+right: 6.5rem;
+transform: rotate(30deg);
+
 }
 
-.textSec2 {
-  height: 0rem;
-  top: 16.75rem;
-  position: absolute;
-  right: 6.5rem;
-  transform: rotate(30deg);
-  text-align: right;
+.textSec2{
+
+height: 0rem;
+top: 16.75rem;
+position: absolute;
+right:6.5rem ;
+transform: rotate(30deg); 
+text-align: right;
 }
+
+
+
+
+
 
 /* _________________________________________________________________ */
 
-.h1sec1 {
-  color: white;
-  height: 0px;
-  top: 268px;
-  position: absolute;
-  right: 104px;
-  transform: rotate(30deg);
+
+.section2{
+width: 100%;
+height: 20rem;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+opacity: 1;
+padding-left: 5rem;
 }
 
-.textSec1 {
-  color: white;
-  height: 0px;
-  top: 268px;
+.section2div1{
+  float :left;
+  width: 37rem;
+  height: 14rem;
+  margin:2rem ;
+padding-top: 70px;
+padding-left: 30px;
+padding-right: 30px;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0.5px 60px #DBDBDB29;
+border-radius: 50px;
+opacity: 1;
+
+}
+
+.section2div2{
+  float :left;
+  width: 37rem;
+  height: 14rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0.5px 60px #DBDBDB29;
+border-radius: 50px;
+opacity: 1;
+}
+
+/* _______________________________________________________________________________ */
+.section2img1{
+  width: 7rem;
+  height: 7rem;
+  float :left;
+  left: 22rem;
   position: absolute;
-  right: 104px;
-  transform: rotate(30deg);
+}
+
+.section2img2{
+  width: 7rem;
+  height: 7rem;
+
+  float :left;
+  left: 65rem;
+  position: absolute;
+}
+
+.section2div1 > p{
   text-align: right;
+    font-size: 150%;
 }
 
-.h1sec2 {
-  height: 0px;
-  top: 268px;
-  position: absolute;
-  right: 104px;
-  transform: rotate(30deg);
-}
 
-.textSec2 {
-  height: 0px;
-  top: 268px;
-  position: absolute;
-  right: 104px;
-  transform: rotate(30deg);
-  text-align: right;
-}
 
 .section4 {
   background: transparent url("assets/images/Path\ 7.svg") 0% 0% no-repeat
@@ -497,6 +524,8 @@ a {
   text-align: center;
 }
 
+/*--------------------------------------------------------------------*/
+
 /* ----------------------------------------------------- */
 
 .tracks {
@@ -701,4 +730,3 @@ a {
   opacity: 1;
   margin-top: 5rem;  
 }
-
