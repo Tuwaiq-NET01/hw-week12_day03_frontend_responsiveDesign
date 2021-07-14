@@ -9,10 +9,10 @@
 
 </div>
 
-## [▷ Live](https://tuwaiq.netlify.app/)
+## [▷ Live on Netlify](https://tuwaiq.netlify.app/)
 
 ## Demo
-![Demo](images/demo.png)
+![Demo Img](images/demo.png)
 
 ## Developers
 
